@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@325&family=Nunito:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+#nav-bar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  position: fixed;
+  border-bottom: solid white 2px;
+  z-index: 4;
+  padding: 0 30px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  background: white;
+}
+a {
+  text-decoration: none;
+  text-align: right;
+  color: #1d2228;
+  font-family: "Chakra Petch", sans-serif;
+}
+h1 {
+  color: black;
+  display: inline;
+  font-size: 40px;
+}
+h2 {
+  color: yellow;
+}
+h3 {
+  display: inline;
+  color: black;
+  margin: 0 5px;
+}
+
+h4 {
+  display: inline-block;
+  text-align: right;
+  color: #259b9a;
+  margin: 30px 0;
+  font-family: "Chakra Petch", sans-serif;
+}
+#nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe {
+  width: 100%;
+  background: #259b9a;
+  text-align: center;
+  padding: 60px;
+  margin-bottom: 70px;
+  border-bottom: 25px solid yellow;
+}
+input {
+  color: yellow;
+  background: transparent;
+  border: solid 2px yellow;
+  border-radius: 3px;
+  padding: 12px 30px;
+  margin: 20px;
+}
+
+.features {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+}
+.container {
+  display: flex;
+  padding: 85px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+.items {
+  width: 300px;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  padding: 50px 35px;
+  box-shadow: 0 0 10px black;
+  border-bottom: 25px solid #259b9a;
+}
+.embed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 45px;
+}
+
+#image {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.description {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding-top: 35vh;
+  margin: auto;
+  background-image: url("https://images.pexels.com/photos/268862/pexels-photo-268862.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=9400");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.description p {
+  max-width: 900px;
+  color: black;
+  font-size: 20px;
+  margin: 50px auto;
+}
+#header-img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+hr {
+  border: solid #259b9a 1px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+#contact {
+  text-align: center;
+}
+#contact img {
+  width: 80px;
+  margin: 0 45px 30px 45px;
+}
+.melkam {
+  text-align: center;
+}
+.melkam hr {
+  width: 35%;
+  margin: 30px auto;
+}
+@media (max-width: 500px) {
+  #nav-bar {
+    padding: 0 5px;
+  }
+
+  .container {
+    display: flex;
+    padding: 20px;
+    margin: 15px 0;
+    flex-wrap: wrap;
+  }
+}
